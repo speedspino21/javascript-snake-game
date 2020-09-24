@@ -1,0 +1,23 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background: linear-gradient(to top left, #AF1E2D 50%, #FFCE00 50%);
+  font-family: "Exo 2", "Helvetica", sans-serif;
+}
+body h1 {
+  margin: 0;
+  font-size: 72px;
+}
+body h1.bottom {
+  color: #F3F3F3;
+  text-align: right;
+}
+body canvas {
+  background: #171717;
+  border: 3px solid #F3F3F3;
+  box-shadow: 4px 4px 12px 4px rgba(23, 23, 23, 0.25);
+}
